@@ -1,0 +1,66 @@
+body{
+    background-color: #161d26;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.div1{
+    height: 40px;
+    width: 100%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    display: flex;
+    position: sticky;
+    background-color: #161d26;
+    top: 0;
+
+}
+.awsimg{
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 4px;
+    height: 35px; 
+    width: 35px;
+    filter: brightness(0) invert(1);
+    cursor: pointer;
+}
+
+.dotbox{
+    border-left: 1px solid white;
+    height: 25px;
+    margin-top: 8px;
+}
+
+
+.boxsvg{
+    filter: brightness(0) invert(1);
+    margin-left: 15px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.boxsvg:hover{
+    filter: brightness(0) saturate(100%) invert(18%) sepia(94%) saturate(7487%) hue-rotate(209deg) brightness(93%) contrast(88%);
+}
+
+
+
+.searchinput{
+    width: 35rem;
+    height: 28px;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    margin-top: 6px;
+    border-radius: 7px;
+    margin-left: 15px;
+    font-size: 15px;
+    background-color: #161d26;
+    padding-left: 10px;
+    color: white;
+}
+
+.searchinput::placeholder{
+    font-style: italic;
+}
+
+
+
