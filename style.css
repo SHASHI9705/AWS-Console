@@ -134,3 +134,38 @@ body{
     color: rgb(107, 107, 255);
 }
 
+
+.div2{
+    height: 40px;
+    width: 100%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    display: flex;
+    position: sticky;
+    background-color: #161d26;
+    top: 0;
+
+}
+
+.trilineicon{
+    filter: brightness(0) invert(1);
+    height: 13px;
+    width: 20px;
+    margin-left: 5px;
+    margin-top: 8px;
+}
+
+
+.triline{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.triline:hover{
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #1d2530;
+}
