@@ -143,6 +143,7 @@ body{
     position: sticky;
     background-color: #161d26;
     top: 0;
+    justify-content: space-between;
 
 }
 
@@ -168,4 +169,43 @@ body{
     cursor: pointer;
     border-radius: 50%;
     background-color: #1d2530;
+}
+
+.iicon{
+    filter: brightness(0) invert(1);
+    height: 20px;
+    width: 20px;
+    margin-left: 5px;
+    margin-right: 14px;
+    border-radius: 50%;
+    cursor: pointer;
+
+    
+}
+
+.iicon:hover{
+    box-shadow: 0 0 2px white;
+}
+.queicon{
+    filter: brightness(0) invert(1);
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+    margin-top: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.queicon:hover{
+    box-shadow: 0 0 2px white;
+}
+.right2nd{
+    display: flex;
+    margin-right: 25px;
+}
+
+.i{
+    border-right:1px solid rgba(255, 255, 255, 0.5) ;
+    height: 25px;
+    margin-top: 8px;
 }
