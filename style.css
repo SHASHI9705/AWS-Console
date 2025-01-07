@@ -282,3 +282,33 @@ body{
     cursor: pointer;
     opacity: 0.8;
 }
+
+.bothpannel{
+    width: 80rem;
+    height: 29rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding: 2px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pannel1{
+    width: 38.2rem;
+    height: 28.8rem;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+    resize: both;
+    overflow: auto;
+    padding: 7px;
+}
+.pannel2{
+    width: 38.2rem;
+    height: 28.8rem;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+    resize: both;
+    overflow: auto;
+    padding: 7px;
+}
