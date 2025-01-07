@@ -215,6 +215,8 @@ body{
     height: 2rem;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 .consolehead{
@@ -228,13 +230,55 @@ body{
 
 .consoleinfo{
     font-size: 13px;
-    color: rgb(138, 145, 243);
+    color: #42b4ff;
     text-decoration: none;
-    text-shadow: 0 0 0 rgb(138, 145, 243);
+    text-shadow: 0 0 0 #42b4ff;
 }
 
 .consoleinfo:hover{
     cursor: pointer;
     color: blue;
     text-shadow: 0 0 0 blue;
+}
+
+.right3{
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.reset{
+    width: 12rem;
+    height: fit-content;
+    border: 2px solid #42b4ff;
+    color: #42b4ff;
+    border-radius: 20px;
+    padding: 6px;
+    margin-top: 12px;
+    text-align: center;
+    -webkit-text-stroke: 0.5px #42b4ff;
+}
+.reset:hover{
+    border: 2px solid #7fccff;
+    color: #7fccff;
+    cursor: pointer;
+    -webkit-text-stroke: 0.5px #7fccff;
+}
+
+.widgets{
+    background-color: #ff9900;
+    height: fit-content;
+    margin-left: 10px;
+    width: 9rem;
+    color: black;
+    margin-top: 12px;
+    text-align: center;
+    border-radius: 20px;
+    -webkit-text-stroke: 0.5px black;
+    padding: 6px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.widgets:hover{
+    cursor: pointer;
+    opacity: 0.8;
 }
