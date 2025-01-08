@@ -312,3 +312,36 @@ body{
     overflow: auto;
     padding: 7px;
 }
+
+.pannel1head{
+    height: 2rem;
+    width: 100%;
+    display: flex;
+}
+
+.sixdot{
+    height: 0.9rem;
+    filter: brightness(0) invert(1);
+    margin-top: 7px;
+    margin-right: 9px;
+}
+
+.dotandrecent{
+    display: flex;
+}
+
+.Recently{
+    font-size: 20px;
+    margin-top: 2px;
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font: bold;
+    text-decoration:  solid white;
+    text-shadow: 0px 0px 0px white;
+}
+
+.recentinfo{
+    font-size: 13px;
+    color: #42b4ff;
+    text-decoration: none;
+    text-shadow: 0 0 0 #42b4ff;
+}
