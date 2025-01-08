@@ -359,11 +359,39 @@ body{
     height: 0.9rem;
     filter: brightness(0) invert(1);
     margin-top: 8px;
-    margin-right: 8px;
+    margin-right: 14px;
     cursor: pointer;
     opacity: 0.8;
 
 }
 .pannel1dots:hover{
     opacity: 1;
+}
+.recentmain{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.recentservice{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+    width: 17rem;
+    height: 2.5rem;
+    padding-top: 4px;
+    margin-left: 12px;
+    
+}
+
+.recent1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 80%;
+}
+.recent2{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 80%;
+    margin-right: 0;
+    margin-left: 12px;
 }
