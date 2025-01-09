@@ -243,25 +243,26 @@ body{
 
 .right3{
     display: flex;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.reset{
-    width: 12rem;
+.bluediv{
+    width: fit-content;
     height: fit-content;
     border: 2px solid #42b4ff;
     color: #42b4ff;
     border-radius: 20px;
-    padding: 6px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 21px;
+    padding-right: 21px;
     margin-top: 12px;
     text-align: center;
-    -webkit-text-stroke: 0.5px #42b4ff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.reset:hover{
+.bluediv:hover{
     border: 2px solid #7fccff;
     color: #7fccff;
     cursor: pointer;
-    -webkit-text-stroke: 0.5px #7fccff;
 }
 
 .widgets{
@@ -294,7 +295,7 @@ body{
     justify-content: space-between;
 }
 
-.pannel1{
+.pannels{
     width: 38.2rem;
     height: 28.8rem;
     border: 1px solid rgba(255, 255, 255, 0.25);
@@ -305,23 +306,12 @@ body{
     min-width: 200px;
     min-height: 200px;
 }
-.pannel1::-webkit-resizer{
+.pannels::-webkit-resizer{
     display: none;
 }
 
-.pannel2{
-    width: 38.2rem;
-    height: 28.8rem;
-    border: 1px solid rgba(255, 255, 255, 0.25);
-    border-radius: 10px;
-    resize: both;
-    overflow: hidden;
-    padding: 7px;
-    min-width: 200px;
-    min-height: 200px;
-}
 
-.pannel1head{
+.pannelhead{
     height: 2rem;
     width: 100%;
     display: flex;
@@ -338,11 +328,11 @@ body{
     margin-left: 7px;
 }
 
-.dotandrecent{
+.leftsidepannel{
     display: flex;
 }
 
-.Recently{
+.pannelname{
     font-size: 20px;
     margin-top: 2px;
     font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -351,19 +341,23 @@ body{
     text-shadow: 0px 0px 0px white;
 }
 
-.recentinfo{
+
+.pannelinfo{
     font-size: 13px;
     color: #42b4ff;
     text-decoration: none;
     text-shadow: 0 0 0 #42b4ff;
 }
-.recentinfo:hover{
+.pannelinfo:hover{
     cursor: pointer;
     color: blue;
     text-shadow: 0 0 0 blue;
 }
+.pannelright{
+    display: flex;
+}
 
-.pannel1dots{
+.pannel-right-dots{
     height: 0.9rem;
     filter: brightness(0) invert(1);
     margin-top: 8px;
@@ -372,10 +366,10 @@ body{
     opacity: 0.8;
 
 }
-.pannel1dots:hover{
+.pannel-right-dots:hover{
     opacity: 1;
 }
-.recentmain{
+.midbody{
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -464,4 +458,18 @@ body{
     cursor: se-resize;
     pointer-events: none;
 
+}
+
+.appnumber{
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.7;
+}
+
+.applicationinfo{
+    margin-left: 10px;
+}
+
+.createapp{
+    margin-top: 0;
+    margin-right: 15px;
 }
