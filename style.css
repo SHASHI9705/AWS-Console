@@ -300,17 +300,25 @@ body{
     border: 1px solid rgba(255, 255, 255, 0.25);
     border-radius: 13px;
     resize: both;
-    overflow: auto;
+    overflow: hidden;
     padding: 7px;
+    min-width: 200px;
+    min-height: 200px;
 }
+.pannel1::-webkit-resizer{
+    display: none;
+}
+
 .pannel2{
     width: 38.2rem;
     height: 28.8rem;
     border: 1px solid rgba(255, 255, 255, 0.25);
     border-radius: 10px;
     resize: both;
-    overflow: auto;
+    overflow: hidden;
     padding: 7px;
+    min-width: 200px;
+    min-height: 200px;
 }
 
 .pannel1head{
@@ -427,8 +435,8 @@ body{
     height: 1rem;
     margin-bottom: 0;
     border-top: 1px solid rgba(255, 255, 255, 0.25);
-    text-align: center;
     margin-top: 22px;
+    display: flex;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     
 }
@@ -437,6 +445,8 @@ body{
     margin-top: 11px;
     color: #42b4ff;
     transition: color 0.7s ease, text-decoration 0.7s ease-in;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
@@ -444,4 +454,14 @@ body{
     cursor: pointer;
     color: #7fccff;
     text-decoration: underline;
+}
+
+.resizeicon{
+    height: 17px;
+    width: 17px;
+    filter: brightness(0) invert(1);
+    margin-top: 20px;
+    cursor: se-resize;
+    pointer-events: none;
+
 }
