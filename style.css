@@ -1,11 +1,12 @@
-body{
+body {
     background-color: #161d26;
     color: white;
     margin: 0;
     padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.div1{
+.div1 {
     height: 40px;
     width: 100%;
     border-bottom: 1px solid rgba(255, 255, 255, 0.25);
@@ -15,37 +16,38 @@ body{
     top: 0;
 
 }
-.awsimg{
+
+.awsimg {
     margin-left: 15px;
     margin-right: 15px;
     margin-top: 4px;
-    height: 35px; 
+    height: 35px;
     width: 35px;
     filter: brightness(0) invert(1);
     cursor: pointer;
 }
 
-.dotbox{
+.dotbox {
     border-left: 1px solid white;
     height: 25px;
     margin-top: 8px;
 }
 
 
-.boxsvg{
+.boxsvg {
     filter: brightness(0) invert(1);
     margin-left: 15px;
     margin-top: 5px;
     cursor: pointer;
 }
 
-.boxsvg:hover{
+.boxsvg:hover {
     filter: brightness(0) saturate(100%) invert(18%) sepia(94%) saturate(7487%) hue-rotate(209deg) brightness(93%) contrast(88%);
 }
 
 
 
-.searchinput{
+.consolesearch{
     width: 35rem;
     height: 28px;
     border: 1px solid rgba(255, 255, 255, 0.7);
@@ -58,18 +60,21 @@ body{
     color: white;
 }
 
-.searchinput::placeholder{
+.consolesearch::placeholder {
     font-style: italic;
 }
 
-.rightside{
+.rightside {
     width: 15rem;
     display: flex;
     margin-left: 27rem;
-    
+
 }
 
-.shellicon,.notificationicon,.helpicon,.settingicon{
+.shellicon,
+.notificationicon,
+.helpicon,
+.settingicon {
     height: 17px;
     width: 17px;
     filter: brightness(0) invert(1);
@@ -77,28 +82,35 @@ body{
     margin-left: 11px;
     cursor: pointer;
 }
-.shellicon:hover,.notificationicon:hover,.helpicon:hover,.settingicon:hover{
+
+.shellicon:hover,
+.notificationicon:hover,
+.helpicon:hover,
+.settingicon:hover {
     filter: brightness(0) saturate(100%) invert(18%) sepia(94%) saturate(7487%) hue-rotate(209deg) brightness(93%) contrast(88%);
 
 }
 
-.shell,.notification,.help,.setting{
+.shell,
+.notification,
+.help,
+.setting {
     margin-left: 7px;
     width: 3rem;
     border-right: 1px solid rgba(255, 255, 255, 0.7);
     height: 25px;
     margin-top: 8px;
-    
+
 }
 
-.regiondiv{
+.regiondiv {
     background-color: #161d26;
-    border-right:1px solid rgba(255, 255, 255, 0.7) ;
+    border-right: 1px solid rgba(255, 255, 255, 0.7);
     height: 25px;
     margin-top: 8px;
 }
 
-.region{
+.region {
     background-color: #161d26;
     color: white;
     margin-top: 0px;
@@ -110,18 +122,19 @@ body{
     cursor: pointer;
 
 }
-.region:hover{
+
+.region:hover {
     color: rgb(107, 107, 255);
 }
 
-.account{
+.account {
     background-color: #161d26;
     height: 25px;
     margin-top: 8px;
     margin-left: 10px;
 }
 
-.acc{
+.acc {
     background-color: #161d26;
     color: white;
     margin-top: 0px;
@@ -130,12 +143,13 @@ body{
     opacity: .9;
     cursor: pointer;
 }
-.acc:hover{
+
+.acc:hover {
     color: rgb(107, 107, 255);
 }
 
 
-.div2{
+.div2 {
     height: 40px;
     width: 100%;
     border-bottom: 1px solid rgba(255, 255, 255, 0.25);
@@ -147,7 +161,7 @@ body{
 
 }
 
-.trilineicon{
+.trilineicon {
     filter: brightness(0) invert(1);
     height: 13px;
     width: 20px;
@@ -156,7 +170,7 @@ body{
 }
 
 
-.triline{
+.triline {
     width: 30px;
     height: 30px;
     margin-left: 10px;
@@ -165,13 +179,13 @@ body{
     margin-top: 5px;
 }
 
-.triline:hover{
+.triline:hover {
     cursor: pointer;
     border-radius: 50%;
     background-color: #1d2530;
 }
 
-.iicon{
+.iicon {
     filter: brightness(0) invert(1);
     height: 20px;
     width: 20px;
@@ -180,13 +194,14 @@ body{
     border-radius: 50%;
     cursor: pointer;
 
-    
+
 }
 
-.iicon:hover{
+.iicon:hover {
     box-shadow: 0 0 2px white;
 }
-.queicon{
+
+.queicon {
     filter: brightness(0) invert(1);
     height: 20px;
     width: 20px;
@@ -196,21 +211,22 @@ body{
     cursor: pointer;
 }
 
-.queicon:hover{
+.queicon:hover {
     box-shadow: 0 0 2px white;
 }
-.right2nd{
+
+.right2nd {
     display: flex;
     margin-right: 25px;
 }
 
-.i{
-    border-right:1px solid rgba(255, 255, 255, 0.5) ;
+.i {
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
     height: 25px;
     margin-top: 8px;
 }
 
-.bodyhead{
+.bodyhead {
     width: 80rem;
     height: 2rem;
     margin-left: auto;
@@ -219,33 +235,32 @@ body{
     justify-content: space-between;
 }
 
-.consolehead{
+.consolehead {
     font-size: 28px;
-    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-top: 15px;
     font: bold;
-    text-decoration:  solid white;
+    text-decoration: solid white;
     text-shadow: 1px 1px 1px white;
 }
 
-.consoleinfo{
+.consoleinfo {
     font-size: 13px;
     color: #42b4ff;
     text-decoration: none;
     text-shadow: 0 0 0 #42b4ff;
 }
 
-.consoleinfo:hover{
+.consoleinfo:hover {
     cursor: pointer;
     color: blue;
     text-shadow: 0 0 0 blue;
 }
 
-.right3{
+.right3 {
     display: flex;
 }
 
-.bluediv{
+.bluediv {
     width: fit-content;
     height: fit-content;
     border: 2px solid #42b4ff;
@@ -257,15 +272,15 @@ body{
     padding-right: 21px;
     margin-top: 12px;
     text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.bluediv:hover{
+
+.bluediv:hover {
     border: 2px solid #7fccff;
     color: #7fccff;
     cursor: pointer;
 }
 
-.widgets{
+.widgets {
     background-color: #ff9900;
     height: fit-content;
     margin-left: 10px;
@@ -279,12 +294,12 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.widgets:hover{
+.widgets:hover {
     cursor: pointer;
     opacity: 0.8;
 }
 
-.bothpannel{
+.bothpannel {
     width: 80rem;
     height: 29rem;
     margin-left: auto;
@@ -295,7 +310,7 @@ body{
     justify-content: space-between;
 }
 
-.pannels{
+.pannels {
     width: 38.2rem;
     height: 28.8rem;
     border: 1px solid rgba(255, 255, 255, 0.25);
@@ -306,12 +321,13 @@ body{
     min-width: 200px;
     min-height: 200px;
 }
-.pannels::-webkit-resizer{
+
+.pannels::-webkit-resizer {
     display: none;
 }
 
 
-.pannelhead{
+.pannelhead {
     height: 2rem;
     width: 100%;
     display: flex;
@@ -319,7 +335,7 @@ body{
     margin-top: 8px;
 }
 
-.sixdot{
+.sixdot {
     height: 0.9rem;
     filter: brightness(0) invert(1);
     margin-top: 7px;
@@ -328,36 +344,37 @@ body{
     margin-left: 7px;
 }
 
-.leftsidepannel{
+.leftsidepannel {
     display: flex;
 }
 
-.pannelname{
+.pannelname {
     font-size: 20px;
     margin-top: 2px;
-    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font: bold;
-    text-decoration:  solid white;
+    text-decoration: solid white;
     text-shadow: 0px 0px 0px white;
 }
 
 
-.pannelinfo{
+.pannelinfo {
     font-size: 13px;
     color: #42b4ff;
     text-decoration: none;
     text-shadow: 0 0 0 #42b4ff;
 }
-.pannelinfo:hover{
+
+.pannelinfo:hover {
     cursor: pointer;
     color: blue;
     text-shadow: 0 0 0 blue;
 }
-.pannelright{
+
+.pannelright {
     display: flex;
 }
 
-.pannel-right-dots{
+.pannel-right-dots {
     height: 0.9rem;
     filter: brightness(0) invert(1);
     margin-top: 8px;
@@ -366,34 +383,39 @@ body{
     opacity: 0.8;
 
 }
-.pannel-right-dots:hover{
+
+.pannel-right-dots:hover {
     opacity: 1;
 }
-.midbody{
+
+.midbody {
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
-.recentservice{
+
+.recentservice {
     border-bottom: 1px solid rgba(255, 255, 255, 0.25);
     width: 17rem;
     height: 2.5rem;
     padding-top: 4px;
     margin-left: 12px;
     display: flex;
-    
+
 }
-.lastservice{
+
+.lastservice {
     border-bottom: 1px solid rgba(255, 255, 255, 0);
 }
 
-.recent1{
+.recent1 {
     display: flex;
     flex-direction: column;
     width: 50%;
     height: 80%;
 }
-.recent2{
+
+.recent2 {
     display: flex;
     flex-direction: column;
     width: 50%;
@@ -402,14 +424,14 @@ body{
     margin-left: 12px;
 }
 
-.recenticon{
+.recenticon {
     height: 60%;
     width: 2rem;
     margin-top: auto;
     margin-bottom: auto;
 }
-.recentactname{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+.recentactname {
     margin-top: auto;
     margin-bottom: auto;
     font-size: 15px;
@@ -418,24 +440,22 @@ body{
     transition: color 0.3 ease-in;
 }
 
-.recentactname:hover{
+.recentactname:hover {
     cursor: pointer;
     color: #7fccff;
     text-decoration: underline;
 }
 
-.viewall{
+.viewall {
     width: 100%;
     height: 1rem;
     margin-bottom: 0;
     border-top: 1px solid rgba(255, 255, 255, 0.25);
     margin-top: 22px;
     display: flex;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
 }
 
-.viewall1{
+.viewall1 {
     margin-top: 11px;
     color: #42b4ff;
     transition: color 0.7s ease, text-decoration 0.7s ease-in;
@@ -444,13 +464,13 @@ body{
 
 }
 
-.viewall1:hover{
+.viewall1:hover {
     cursor: pointer;
     color: #7fccff;
     text-decoration: underline;
 }
 
-.resizeicon{
+.resizeicon {
     height: 17px;
     width: 17px;
     filter: brightness(0) invert(1);
@@ -460,16 +480,68 @@ body{
 
 }
 
-.appnumber{
+.appnumber {
     font-family: Arial, Helvetica, sans-serif;
-    opacity: 0.7;
+    opacity: 0.5;
 }
 
-.applicationinfo{
+.applicationinfo {
     margin-left: 10px;
 }
 
-.createapp{
+.createapp {
     margin-top: 0;
     margin-right: 15px;
 }
+
+.pannel2region{
+    opacity: 0.5;
+    margin-left: 30px;
+}
+
+.pannel-2-midbody{
+    flex-direction: column;
+}
+
+.pannel2regionselect{
+    background-color: #161d26;
+    border: none;
+    color: white;
+    opacity: 0.7;
+    margin-top: 6px;
+}
+
+.current-region{
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    width: fit-content;
+    border-radius: 7px;
+    height: 28px;
+    padding-right: 8px;
+    padding-left: 8px;
+    margin-left: 14px;
+}
+
+.appsearch{
+    width: 19rem;
+    height: 28px;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    margin-top: 6px;
+    border-radius: 7px;
+    margin-left: 15px;
+    font-size: 15px;
+    background-color: #161d26;
+    padding-left: 10px;
+    color: white;
+    margin-right: 14px;
+    margin-top: 0;
+}
+
+.appsearch::placeholder{
+    font-style: italic;
+}
+
+.regionandfind{
+    display: flex;
+    justify-content: space-between;
+}
+
