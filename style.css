@@ -47,7 +47,7 @@ body {
 
 
 
-.consolesearch{
+.consolesearch {
     width: 35rem;
     height: 28px;
     border: 1px solid rgba(255, 255, 255, 0.7);
@@ -494,16 +494,16 @@ body {
     margin-right: 15px;
 }
 
-.pannel2region{
+.pannel2region {
     opacity: 0.5;
     margin-left: 30px;
 }
 
-.pannel-2-midbody{
+.pannel-2-midbody {
     flex-direction: column;
 }
 
-.pannel2regionselect{
+.pannel2regionselect {
     background-color: #161d26;
     border: none;
     color: white;
@@ -511,7 +511,7 @@ body {
     margin-top: 6px;
 }
 
-.current-region{
+.current-region {
     border: 1px solid rgba(255, 255, 255, 0.7);
     width: fit-content;
     border-radius: 7px;
@@ -521,7 +521,7 @@ body {
     margin-left: 14px;
 }
 
-.appsearch{
+.appsearch {
     width: 19rem;
     height: 28px;
     border: 1px solid rgba(255, 255, 255, 0.7);
@@ -536,12 +536,77 @@ body {
     margin-top: 0;
 }
 
-.appsearch::placeholder{
+.appsearch::placeholder {
     font-style: italic;
 }
 
-.regionandfind{
+.regionandfind {
     display: flex;
     justify-content: space-between;
 }
+.numberofapp{
+    display: flex;
+    width: fit-content;
+    margin-right: 17px;
+    margin-left: auto;
+    margin-top: 15px;
+}
 
+.nexticon{
+    height: 12px;
+    filter: brightness(0) invert(1);
+    margin-top: 3px;
+    opacity: 0.5;
+
+}
+
+.numberofapplication{
+    font-size: 14px;
+    margin-left: 15px;
+    margin-right: 15px;
+    font: bold;
+}
+
+.appdetails{
+    margin-left: 14px;
+    margin-right: 14px;
+    height: 15rem;
+    border-radius: 13px;
+    overflow-x: auto;
+    flex-direction: column;
+
+
+}
+
+
+
+.inputdetail{
+    display: flex;
+    border-bottom:1px solid rgba(255, 255, 255, 0.25) ;
+}
+
+.detaildiv{
+    width: fit-content;
+    border-right:1px solid rgba(255, 255, 255, 1) ;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-right: 10px;
+}
+
+.detailselect{
+    border: none;
+    background-color: #161d26;
+    color: rgba(255, 255, 255, 0.7);
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.2);
+    margin-left: 10px;
+    padding-right: 25px;
+    font-size: 15px;
+    
+}
+
+.nameselect{
+    margin-left: 0;
+    padding-right: 8rem;
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.8);
+    color: white;
+}

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
 
 </head>
+
 <body>
     <div class="div1">
         <img src="./SVG/logo.svg" class="awsimg">
@@ -30,8 +32,8 @@
             <div class="setting">
                 <img src="./SVG/settingicon.svg" class="settingicon">
             </div>
-            
-            
+
+
 
         </div>
         <div class="regiondiv">
@@ -70,7 +72,7 @@
 
             </div>
             <div class="widgets">
-                +  Add widgets
+                + Add widgets
             </div>
         </div>
 
@@ -80,7 +82,10 @@
             <div class="pannel1head pannelhead">
                 <div class="leftsidepannel">
                     <div><img src="./SVG/sixdot.svg" class="pannel1six sixdot"></div>
-                    <div><h4 class="Recently pannelname">Recently visited <a href="ww.com" class="pannelinfo recentinfo">Info</a></h4></div>
+                    <div>
+                        <h4 class="Recently pannelname">Recently visited <a href="ww.com"
+                                class="pannelinfo recentinfo">Info</a></h4>
+                    </div>
                 </div>
                 <div class="pannelright pannel1right">
                     <img src="./SVG/right3dotpannel1.svg" class="pannel-right-dots">
@@ -120,7 +125,7 @@
                         <img src="./SVG/ec2autoscaleicon.svg" class="ec2autoscaleicon recenticon">
                         <p class="recentact8 recentactname">EC2 Auto Scaling</p>
                     </div>
-    
+
                 </div>
                 <div class="recent2">
                     <div class="recentservice">
@@ -139,10 +144,10 @@
                         <img src="./SVG/codepipelineiicon.svg" class="codepipelineiicon recenticon">
                         <p class="recentact12 recentactname">CodePipeline</p>
                     </div>
-    
+
                 </div>
             </div>
-            
+
             <div class="viewall">
                 <p class="viewall1">View all services </p>
                 <img src="./SVG/resize.svg" class="resizeicon">
@@ -153,7 +158,10 @@
             <div class="pannel2head pannelhead">
                 <div class="leftsidepannel">
                     <div><img src="./SVG/sixdot.svg" class="pannel2 sixdot"></div>
-                    <div><h4 class="pannelname">Applications <span class="appnumber">(0)</span><a href="ww.com" class="pannelinfo applicationinfo">Info</a></h4></div>
+                    <div>
+                        <h4 class="pannelname">Applications <span class="appnumber">(0)</span><a href="ww.com"
+                                class="pannelinfo applicationinfo">Info</a></h4>
+                    </div>
                 </div>
                 <div class="pannelright pannel2right">
                     <div class="bluediv createapp">Create application </div>
@@ -175,10 +183,44 @@
                         <input type="search" placeholder="Find applications" class="appsearch">
                     </div>
                 </div>
+                <div class="numberofapp">
+                    <img src="./SVG/nextlefticon.svg" class="nextlefticon nexticon">
+                    <div class="numberofapplication">1</div>
+                    <img src="./SVG/nextrighticon.svg" class="nextrighticon nexticon">
+                </div>
+                <div class="appdetails">
+                    <div class="inputdetail">
+                        <div class="appname detaildiv">
+                            <select id="options" class="nameselect detailselect">
+                                <option value="Global" selected>Name</option>
+                            </select>
+                        </div>
+                        <div class="appname detaildiv">
+                            <select id="options" class="descriptionselect detailselect">
+                                <option value="Global" selected>Description</option>
+
+                            </select>
+                        </div>
+                        <div class="appname detaildiv">
+                            <select id="options" class="regionselect detailselect">
+                                <option value="Global" selected>Region</option>
+
+                            </select>
+                        </div>
+                        <div class="appname detaildiv">
+                            <select id="options" class="originselect detailselect">
+                                <option value="Global" selected>Originati...</option>
+
+                            </select>
+                        </div>
+                    </div>
+                    
+                </div>
             </div>
         </div>
     </div>
-    
+
     <script src="script.js"></script>
 </body>
+
 </html>
