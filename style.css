@@ -446,7 +446,7 @@ body {
     text-decoration: underline;
 }
 
-.viewall {
+.pannelfooter {
     width: 100%;
     height: 1rem;
     margin-bottom: 0;
@@ -455,7 +455,7 @@ body {
     display: flex;
 }
 
-.viewall1 {
+.footerpara {
     margin-top: 11px;
     color: #42b4ff;
     transition: color 0.7s ease, text-decoration 0.7s ease-in;
@@ -464,7 +464,7 @@ body {
 
 }
 
-.viewall1:hover {
+.footerpara:hover {
     cursor: pointer;
     color: #7fccff;
     text-decoration: underline;
@@ -544,7 +544,8 @@ body {
     display: flex;
     justify-content: space-between;
 }
-.numberofapp{
+
+.numberofapp {
     display: flex;
     width: fit-content;
     margin-right: 17px;
@@ -552,7 +553,7 @@ body {
     margin-top: 15px;
 }
 
-.nexticon{
+.nexticon {
     height: 12px;
     filter: brightness(0) invert(1);
     margin-top: 3px;
@@ -560,40 +561,42 @@ body {
 
 }
 
-.numberofapplication{
+.numberofapplication {
     font-size: 14px;
     margin-left: 15px;
     margin-right: 15px;
     font: bold;
 }
 
-.appdetails{
+.appdetails {
     margin-left: 14px;
     margin-right: 14px;
     height: 15rem;
     border-radius: 13px;
     overflow-x: auto;
     flex-direction: column;
-
-
 }
 
 
 
-.inputdetail{
+
+
+
+
+.inputdetail {
     display: flex;
-    border-bottom:1px solid rgba(255, 255, 255, 0.25) ;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
 }
 
-.detaildiv{
+.detaildiv {
     width: fit-content;
-    border-right:1px solid rgba(255, 255, 255, 1) ;
+    border-right: 1px solid rgba(255, 255, 255, 1);
     margin-top: 10px;
     margin-bottom: 10px;
     padding-right: 10px;
 }
 
-.detailselect{
+.detailselect {
     border: none;
     background-color: #161d26;
     color: rgba(255, 255, 255, 0.7);
@@ -601,12 +604,37 @@ body {
     margin-left: 10px;
     padding-right: 25px;
     font-size: 15px;
-    
+
 }
 
-.nameselect{
+.nameselect {
     margin-left: 0;
     padding-right: 8rem;
     -webkit-text-stroke: 1px rgba(255, 255, 255, 0.8);
     color: white;
+}
+
+.aboutapp {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+
+}
+
+.noapp {
+    margin-top: 3.5rem;
+}
+
+
+.pannel2create {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.getstart {
+    opacity: 0.5;
+}
+
+.pannel2footer {
+    margin-top: 1.8rem;
 }
