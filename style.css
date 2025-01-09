@@ -578,11 +578,6 @@ body {
 }
 
 
-
-
-
-
-
 .inputdetail {
     display: flex;
     border-bottom: 1px solid rgba(255, 255, 255, 0.25);
@@ -606,13 +601,19 @@ body {
     font-size: 15px;
 
 }
+.detailselect:hover{
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.8);
+    color: white;
+    cursor: pointer;
+}
 
 .nameselect {
     margin-left: 0;
     padding-right: 8rem;
-    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.8);
-    color: white;
+    
 }
+
+
 
 .aboutapp {
     width: 100%;
