@@ -603,7 +603,8 @@ body {
     font-size: 15px;
 
 }
-.detailselect:hover{
+
+.detailselect:hover {
     -webkit-text-stroke: 1px rgba(255, 255, 255, 0.8);
     color: white;
     cursor: pointer;
@@ -612,7 +613,7 @@ body {
 .nameselect {
     margin-left: 0;
     padding-right: 8rem;
-    
+
 }
 
 
@@ -642,7 +643,7 @@ body {
     margin-top: 1.8rem;
 }
 
-.shortpannels{
+.shortpannels {
     width: 18rem;
     height: 28.8rem;
     border: 1px solid rgba(255, 255, 255, 0.25);
@@ -653,27 +654,28 @@ body {
     min-width: 200px;
     min-height: 200px;
 }
+
 .shortpannels::-webkit-resizer {
     display: none;
 }
 
-.short{
+.short {
     display: flex;
 }
 
-.short2{
+.short2 {
     margin-left: 1.2rem;
 }
 
-.short3{
+.short3 {
     margin-right: 1.2rem;
 }
 
-.short5{
+.short5 {
     margin-left: 1.7rem;
 }
 
-.pannelsfooter{
+.pannelsfooter {
     width: 80rem;
     height: 7rem;
     margin-left: auto;
@@ -684,31 +686,31 @@ body {
     justify-content: space-between;
 }
 
-.pannelfoot{
+.pannelfoot {
     color: #42b4ff;
     cursor: pointer;
     font-size: 15px;
     margin-top: 20px;
 }
 
-.pannelfoot:hover{
+.pannelfoot:hover {
     color: #7fccff;
 }
 
-.footwidgets{
+.footwidgets {
     -webkit-text-stroke: 0.2px #42b4ff;
     margin-top: 20px;
 }
 
 
-.bodyfooter{
+.bodyfooter {
     border-top: 1px solid rgba(255, 255, 255, 0.25);
     width: 100%;
     height: 1.7rem;
     position: fixed;
     z-index: 1000;
-    background-color:#161d26;
+    background-color: #161d26;
     bottom: 0;
     left: 0;
-    
+
 }
