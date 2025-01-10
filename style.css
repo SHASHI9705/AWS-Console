@@ -707,6 +707,7 @@ body {
     border-top: 1px solid rgba(255, 255, 255, 0.25);
     width: 100%;
     height: 1.7rem;
+    font-size: 12px;
     position: fixed;
     z-index: 1000;
     background-color: #161d26;
@@ -716,9 +717,14 @@ body {
     justify-content: space-between;
 
 }
+
+.footerleft{
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+}
 .footershell{
     display: flex;
-    font-size: 12px;
     margin-left: 15px;
     cursor: pointer;
 }
@@ -742,3 +748,17 @@ body {
     margin-left: 7px;
 }
 
+.feedback{
+    margin-left: 30px;
+    margin-top: 2px;
+    cursor: pointer;
+}
+.feedback:hover{
+    color: #42b4ff;
+    
+}
+
+.footerright{
+    margin-top: auto;
+    margin-bottom: auto;
+}
