@@ -643,7 +643,7 @@ body {
 }
 
 .shortpannels{
-    width: 17.6rem;
+    width: 18rem;
     height: 28.8rem;
     border: 1px solid rgba(255, 255, 255, 0.25);
     border-radius: 13px;
@@ -653,7 +653,22 @@ body {
     min-width: 200px;
     min-height: 200px;
 }
+.shortpannels::-webkit-resizer {
+    display: none;
+}
 
 .short{
     display: flex;
+}
+
+.short2{
+    margin-left: 1.2rem;
+}
+
+.short3{
+    margin-right: 1.2rem;
+}
+
+.short5{
+    margin-left: 1.7rem;
 }
