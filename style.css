@@ -722,6 +722,7 @@ body {
     margin-top: auto;
     margin-bottom: auto;
     display: flex;
+    opacity: 0.9;
 }
 .footershell{
     display: flex;
@@ -761,4 +762,21 @@ body {
 .footerright{
     margin-top: auto;
     margin-bottom: auto;
+    display: flex;
+}
+
+.aws2025{
+    margin-right: 18px;
+    opacity: 0.7;
+}
+
+.rightbuttons{
+    margin-left: 12px;
+    margin-right: 12px;
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.rightbuttons:hover{
+    color: #42b4ff;
 }
