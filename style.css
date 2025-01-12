@@ -24,7 +24,6 @@ body {
     margin-top: 4px;
     height: 35px;
     width: 35px;
-    filter: brightness(0) invert(1);
     cursor: pointer;
 }
 
@@ -36,7 +35,6 @@ body {
 
 
 .boxsvg {
-    filter: brightness(0) invert(1);
     margin-left: 15px;
     margin-top: 5px;
     cursor: pointer;
@@ -78,7 +76,6 @@ body {
 .settingicon {
     height: 17px;
     width: 17px;
-    filter: brightness(0) invert(1);
     margin-top: 4px;
     margin-left: 11px;
     cursor: pointer;
@@ -164,7 +161,6 @@ body {
 }
 
 .trilineicon {
-    filter: brightness(0) invert(1);
     height: 13px;
     width: 20px;
     margin-left: 5px;
@@ -188,7 +184,6 @@ body {
 }
 
 .iicon {
-    filter: brightness(0) invert(1);
     height: 20px;
     width: 20px;
     margin-left: 5px;
@@ -204,7 +199,6 @@ body {
 }
 
 .queicon {
-    filter: brightness(0) invert(1);
     height: 20px;
     width: 20px;
     margin-left: 10px;
@@ -779,4 +773,36 @@ body {
 
 .rightbuttons:hover{
     color: #42b4ff;
+}
+
+
+.midbodyshort{
+    width: 90%;
+    height:80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gettingstart{
+    height: 30px;
+    width: 30px;
+}
+
+.midshort{
+    height: 33%;
+    width: 100%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
+.midshort3{
+    border-bottom: none;
+}
+
+.short1footer{
+    border-top: none;
+}
+
+.short1resize{
+    margin-left: 93%;
+    margin-top: 10px;
+    margin-bottom: auto;
 }
