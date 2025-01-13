@@ -394,7 +394,7 @@ body {
 
 .recentservice {
     border-bottom: 1px solid rgba(66, 70, 80, 0.4);
-    box-shadow: 0 1px 1px rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0.5px 0px rgba(255, 255, 255, 0.2);
     width: 17rem;
     height: 2.5rem;
     padding-top: 4px;
@@ -405,7 +405,7 @@ body {
 
 .lastservice {
     border-bottom: 1px solid rgba(66, 70, 80, 0.4);
-    box-shadow: 0 1px 1px rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0.5px 0px rgba(255, 255, 255, 0.2);
 }
 
 .recent1 {
@@ -450,7 +450,8 @@ body {
     width: 100%;
     height: 1rem;
     margin-bottom: 0;
-    border-top: 1px solid rgba(255, 255, 255, 0.25);
+    border-top: 1px solid rgba(66, 70, 80, 0.4);
+    box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.2);
     margin-top: 22px;
     display: flex;
 }
@@ -801,15 +802,18 @@ body {
 .midshort{
     height: 33%;
     width: 100%;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+    border-bottom: 1px solid rgba(66, 70, 80, 0.4);
+    box-shadow: 0 0.5px 0px rgba(255, 255, 255, 0.2);
     display: flex;
 }
-.midshort3{
+.midshort3-short1{
     border-bottom: none;
+    box-shadow: none;
 }
 
 .short1footer{
     border-top: none;
+    box-shadow: none;
 }
 
 .short1resize{
@@ -861,4 +865,41 @@ body {
     font-size: 12px;
     margin-bottom: 10px;
     margin-left: 10px;
+    opacity: 0.8;
 }
+
+
+.midbodyshort2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 73%;
+    margin-top: 20px;
+}
+
+.midshorts2{
+    border-bottom: 1px solid rgba(66, 70, 80, 0.4);
+    box-shadow: 0 0.5px 0px rgba(255, 255, 255, 0.2);
+    display: flex;
+    flex-direction: column;
+    height: 23%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.short2midhead{
+    margin-top: 10px;
+}
+
+.midshort3-short2{
+    border: none;
+    box-shadow: none;
+
+}
+
+.short2middetail{
+    display: flex;
+    justify-content: space-between;
+}
+
