@@ -832,3 +832,33 @@ body {
     margin-top: auto;
     margin-bottom: auto;
 }
+
+.midshorthead{
+    margin-left: 10px;
+    margin-top: auto;
+    color: #42b4ff;
+    cursor: pointer;
+    transition: color 0.3s ease,text-decoration 0.3s ease;
+}
+
+
+.midshortdetail{
+    width: 80%;
+    height: 80%;
+    padding: 5px;
+}
+.midshorthead:hover{
+    text-decoration: underline;
+    color: #7fccff;
+}
+
+.viewbox:hover{
+    fill: #7fccff;
+}
+
+
+.midshortpara{
+    font-size: 12px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
