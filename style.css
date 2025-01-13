@@ -903,3 +903,52 @@ body {
     justify-content: space-between;
 }
 
+.pannel-3-midbody{
+    width: 95%;
+    height: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.leftmidbody{
+    display: flex;
+    flex-direction: column;
+}
+
+.rightmidbody{
+    display: flex;
+    flex-direction: column;
+}
+
+.currentcost{
+    height: 4rem;
+    width: 11rem;
+    opacity: 0.8;
+}
+.cost{
+    font-size: 25px;
+    color: #42b4ff;
+    cursor: pointer;
+    transition: color 0.3 ease;
+}
+.cost:hover{
+    color: #7fccff;
+}
+
+.endcost{
+    height: 4rem;
+    width: 14.8rem;
+    margin-top: 10px;
+    opacity: 0.8;
+}
+
+.costdata{
+    color: red;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.Savingopp{
+    margin-top: 20px;
+    opacity: 0.8;
+}
