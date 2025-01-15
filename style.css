@@ -405,8 +405,8 @@ body {
 }
 
 .lastservice {
-    border-bottom: 1px solid rgba(66, 70, 80, 0.4);
-    box-shadow: 0 0.5px 0px rgba(255, 255, 255, 0.2);
+    border-bottom:none;
+    box-shadow: none;
 }
 
 .recent1 {
