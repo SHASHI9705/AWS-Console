@@ -1,3 +1,8 @@
+:root{
+    --head-names:#42b4ff;
+}
+
+
 body {
     background-color: #161d26;
     color: white;
@@ -261,8 +266,8 @@ body {
 .bluediv {
     width: fit-content;
     height: fit-content;
-    border: 2px solid #42b4ff;
-    color: #42b4ff;
+    border: 2px solid var(--head-names);
+    color: var(--head-names);
     border-radius: 20px;
     padding-top: 6px;
     padding-bottom: 6px;
@@ -358,9 +363,9 @@ body {
 
 .pannelinfo {
     font-size: 13px;
-    color: #42b4ff;
+    color: var(--head-names);
     text-decoration: none;
-    text-shadow: 0 0 0 #42b4ff;
+    text-shadow: 0 0 0 var(--head-names);
 }
 
 .pannelinfo:hover {
@@ -436,7 +441,7 @@ body {
     margin-top: auto;
     margin-bottom: auto;
     font-size: 15px;
-    color: #42b4ff;
+    color: var(--head-names);
     margin-left: 7px;
     transition: color 0.3 ease-in;
 }
@@ -459,7 +464,7 @@ body {
 
 .footerpara {
     margin-top: 11px;
-    color: #42b4ff;
+    color: var(--head-names);
     transition: color 0.7s ease, text-decoration 0.7s ease-in;
     margin-left: auto;
     margin-right: auto;
@@ -690,7 +695,7 @@ body {
 }
 
 .pannelfoot {
-    color: #42b4ff;
+    color: var(--head-names);
     cursor: pointer;
     font-size: 15px;
     margin-top: 20px;
@@ -701,7 +706,7 @@ body {
 }
 
 .footwidgets {
-    -webkit-text-stroke: 0.2px #42b4ff;
+    -webkit-text-stroke: 0.2px var(--head-names);
     margin-top: 20px;
 }
 
@@ -758,7 +763,7 @@ body {
     cursor: pointer;
 }
 .feedback:hover{
-    color: #42b4ff;
+    color: var(--head-names);
     
 }
 
@@ -781,7 +786,7 @@ body {
 }
 
 .rightbuttons:hover{
-    color: #42b4ff;
+    color: var(--head-names);
 }
 
 
@@ -841,7 +846,7 @@ body {
 .midshorthead{
     margin-left: 10px;
     margin-top: auto;
-    color: #42b4ff;
+    color: var(--head-names);
     cursor: pointer;
     transition: color 0.3s ease,text-decoration 0.3s ease;
 }
@@ -929,7 +934,7 @@ body {
 }
 .cost{
     font-size: 25px;
-    color: #42b4ff;
+    color: var(--head-names);
     cursor: pointer;
     transition: color 0.3 ease;
 }
@@ -1011,7 +1016,7 @@ body {
 
 .learnmore{
     font-size: 10px;
-    color: #42b4ff;
+    color: var(--head-names);
     text-decoration: none;
     margin-left: 10px;
     margin-right: 5px;
@@ -1042,7 +1047,7 @@ body {
 .short3deatilhead{
     font-size: 15px;
     height: 10px;
-    color: #42b4ff;
+    color: var(--head-names);
     cursor: pointer;
     transition: color 0.4s ease, text-decoration 0.4s ease;
 }
