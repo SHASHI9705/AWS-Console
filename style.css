@@ -965,7 +965,7 @@ body {
 
 .midbody-pannel4{
     width: 95%;
-    height: 77%;
+    height: 79%;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -1057,3 +1057,10 @@ body {
     width: 17px;
 }
 
+.midshort4{
+    height: 75%;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
