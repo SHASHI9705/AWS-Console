@@ -962,3 +962,40 @@ body {
     margin-left: 70px;
     margin-top: 50px;
 }
+
+.midbody-pannel4{
+    width: 95%;
+    height: 77%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sol-detail{
+    width: 100%;
+    height: 32%;
+    border-bottom: 1px solid rgba(66, 70, 80, 0.4);
+    box-shadow: 0 0.5px 0px rgba(255, 255, 255, 0.2);
+    gap: 0;
+    
+}
+
+.detail-left{
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+    height: 100%;
+}
+
+.detail-right{
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+    height: 100%;
+}
+
+.detail3,.detail6{
+    border: none;
+    box-shadow: none
+}
