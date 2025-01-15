@@ -1064,3 +1064,12 @@ body {
     margin-right: auto;
 
 }
+
+.securityicon{
+    padding: 3px;
+    height: fit-content;
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 60px;
+}
