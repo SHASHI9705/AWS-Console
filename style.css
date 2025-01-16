@@ -249,9 +249,9 @@ body {
 
 .consoleinfo {
     font-size: 13px;
-    color: #42b4ff;
+    color: var(--head-names);
     text-decoration: none;
-    text-shadow: 0 0 0 #42b4ff;
+    text-shadow: 0 0 0 var(--head-names);
 }
 
 .consoleinfo:hover {
@@ -279,8 +279,8 @@ body {
 }
 
 .bluediv:hover {
-    border: 2px solid #7fccff;
-    color: #7fccff;
+    border: 2px solid var(--hover-color);
+    color: var(--hover-color);
     cursor: pointer;
 }
 
@@ -449,7 +449,7 @@ body {
 
 .recentactname:hover {
     cursor: pointer;
-    color: #7fccff;
+    color: var(--hover-color);
     text-decoration: underline;
 }
 
@@ -474,7 +474,7 @@ body {
 
 .footerpara:hover {
     cursor: pointer;
-    color: #7fccff;
+    color: var(--hover-color);
     text-decoration: underline;
 }
 
@@ -591,11 +591,12 @@ body {
 .inputdetail {
     display: flex;
     border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.8);
 }
 
 .detaildiv {
     width: fit-content;
-    border-right: 1px solid rgba(255, 255, 255, 1);
+    border-right: 1px solid rgba(255, 255, 255, 0.25);
     margin-top: 10px;
     margin-bottom: 10px;
     padding-right: 10px;
@@ -604,19 +605,14 @@ body {
 .detailselect {
     border: none;
     background-color: rgba(255, 255, 255, 0);
-    color: rgba(255, 255, 255, 0.7);
-    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.2);
+    color: white;
     margin-left: 10px;
     padding-right: 25px;
     font-size: 15px;
-
-}
-
-.detailselect:hover {
-    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.8);
-    color: white;
     cursor: pointer;
+
 }
+
 
 .nameselect {
     margin-left: 0;
@@ -691,6 +687,7 @@ body {
     margin-right: auto;
     margin-top: 30px;
     border-top: 1px solid rgba(255, 255, 255, 0.25);
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
     display: flex;
     justify-content: space-between;
 }
@@ -703,7 +700,7 @@ body {
 }
 
 .pannelfoot:hover {
-    color: #7fccff;
+    color: var(--hover-color);
 }
 
 .footwidgets {
@@ -714,6 +711,7 @@ body {
 
 .bodyfooter {
     border-top: 1px solid rgba(255, 255, 255, 0.25);
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
     width: 100%;
     height: 1.7rem;
     font-size: 12px;
@@ -860,11 +858,11 @@ body {
 }
 .midshorthead:hover{
     text-decoration: underline;
-    color: #7fccff;
+    color: var(--hover-color);
 }
 
 .viewbox:hover{
-    fill: #7fccff;
+    fill: var(--hover-color) ;
 }
 
 
@@ -940,7 +938,7 @@ body {
     transition: color 0.3 ease;
 }
 .cost:hover{
-    color: #7fccff;
+    color:  var(--hover-color);
 }
 
 .endcost{
@@ -1011,7 +1009,7 @@ body {
 }
 
 .learnicon:hover{
-    fill: #7fccff;
+    fill:  var(--hover-color);
 
 }
 
@@ -1026,7 +1024,7 @@ body {
 
 .learnmore:hover{
     cursor: pointer;
-    color: #7fccff;
+    color: var(--hover-color);
 }
 
 .midbody-short3{
@@ -1054,7 +1052,7 @@ body {
 }
 
 .short3deatilhead:hover{
-    color: #7fccff;
+    color:  var(--hover-color);
     text-decoration: underline;
 }
 
