@@ -1,5 +1,6 @@
 :root{
     --head-names:#42b4ff;
+    --hover-color:#7fccff;
 }
 
 
@@ -602,7 +603,7 @@ body {
 
 .detailselect {
     border: none;
-    background-color: #161d26;
+    background-color: rgba(255, 255, 255, 0);
     color: rgba(255, 255, 255, 0.7);
     -webkit-text-stroke: 1px rgba(255, 255, 255, 0.2);
     margin-left: 10px;
