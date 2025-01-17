@@ -172,6 +172,8 @@ body {
 
 }
 
+
+
 .trilineicon {
     height: 13px;
     width: 20px;
@@ -700,6 +702,13 @@ body {
     border-top: 1px solid var(--border-line);
     display: flex;
     justify-content: space-between;
+}
+
+@media (max-width:1479px) {
+    .pannelsfooter{
+        width: 100rem;
+    }
+    
 }
 
 .pannelfoot {
