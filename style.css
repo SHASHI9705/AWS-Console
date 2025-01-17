@@ -253,6 +253,13 @@ body {
     justify-content: space-between;
 }
 
+@media (max-width:1479px) {
+    .bodyhead{
+        width: 100rem;
+    }
+    
+}
+
 .consolehead {
     font-size: 28px;
     margin-top: 15px;
