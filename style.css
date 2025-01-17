@@ -5,6 +5,7 @@
 }
 
 
+
 body {
     background-color: #161d26;
     color: white;
@@ -12,6 +13,8 @@ body {
     padding: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+
 
 .div1 {
     height: 40px;
@@ -315,6 +318,16 @@ body {
     justify-content: space-between;
 }
 
+@media (max-width: 1479px) {
+    .allpannels{
+        flex-direction: column;
+        height: 60rem;
+        width: 100rem;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
 .pannels {
     width: 38.2rem;
     height: 28.8rem;
