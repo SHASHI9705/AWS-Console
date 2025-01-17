@@ -172,7 +172,15 @@ body {
 
 }
 
-
+@media (max-width:1479px) {
+    .div2{
+        width: 100rem;
+    }
+    .div1{
+        width: 100rem;
+    }
+    
+}
 
 .trilineicon {
     height: 13px;
