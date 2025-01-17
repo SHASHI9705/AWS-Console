@@ -1,8 +1,8 @@
-const shell = document.getElementById('headshellicon');
+const darkMode = document.getElementById('settingicon');
 const root = document.documentElement;
 
 
-shell.onclick = () => {
+darkMode.onclick = () => {
 
     const currentBackground = getComputedStyle(document.body).backgroundColor;
     if (currentBackground === 'rgb(255, 255, 255)') { 
